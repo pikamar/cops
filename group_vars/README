@@ -1,0 +1,3 @@
+Content of this folder should be replaced by mounting fuse blob storage
+
+sudo -E blobfuse ~/cops/group_vars --tmp-path=/mnt/ramdisk/blobfusetmp --container-name=$AZURE_STORAGE_CONTAINER --use-https=true -o attr_timeout=240 -o entry_timeout=240 -o negative_timeout=120 -o allow_other
